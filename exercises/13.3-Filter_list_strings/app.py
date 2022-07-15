@@ -5,5 +5,5 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 'Matthew','Ella','Aiden','Madison','Henry','Scarlett','Joseph','Victoria','Jackson','Aria',
 'Samuel','Grace','Sebastian','Chloe','David','Camila','Carter','Penelope','Wyatt','Riley']
 
-
-#Your code go here:
+filtrada = list(filter(lambda name: name if "am" in name else None, names))
+print(filtrada)

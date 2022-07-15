@@ -12,4 +12,5 @@ tasks = [
 
 
 #Your code go here:
+print(list(filter(lambda task: task if task["done"] == True else None, tasks)))
 
